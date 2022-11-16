@@ -3,7 +3,7 @@
     // console.log(target?.style)
     const fontSize = block?.options?.fontSize?block.options.fontSize:options.fontSize?options.fontSize:'5vh'
     const color = block?.options?.color?block.options.color:options.color?options.color:'white'
-    const fontFamily = block?.options?.fontFamily?block.options.fontFamily:options.fontFamily?options.fontFamily:'Helvetica'
+    const fontFamily = block?.options?.fontFamily?block.options.fontFamily:options.fontFamily?options.fontFamily:'Helvetica Neue'
     const clickable = block?.options?.clickable?block.options.clickable:options.clickable?options.clickable:false
     const maxWidth = block?.options?.maxWidth?block.options.maxWidth:options.maxWidth?options.maxWidth:'inherit'
     const textAlign = block?.options?.textAlign?block.options.textAlign:options.textAlign?options.textAlign:'center'
